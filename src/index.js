@@ -1,6 +1,10 @@
-import Cat from "./cat.js";
-import Dog from "./dog.ts";
+function sayHello() {
+  console.log('hello world');
+}
 
-export default { Dog, Cat };
 
-console.log("Hello world from the bundle!");
+export default {
+  sayHello,
+};
+
+document.body.style.backgroundColor = 'red';
