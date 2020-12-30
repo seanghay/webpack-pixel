@@ -51,6 +51,9 @@ const config = {
     modules: [path.resolve("./node_modules"), path.resolve("./src")],
     extensions: [".json", ".js"],
   },
+  externals: {
+    analytics: '_analytics'
+  }
 };
 
 module.exports = config;

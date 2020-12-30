@@ -1,10 +1,7 @@
-function sayHello() {
-  console.log('hello world');
-}
+
+const myAnalytics = new _analytics.Analytics({});
+
+console.log(myAnalytics);
 
 
-export default {
-  sayHello,
-};
-
-document.body.style.backgroundColor = 'red';
+window.addEventListener('scroll', () => console.log('scolled'));
